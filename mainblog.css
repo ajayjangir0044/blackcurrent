@@ -1,0 +1,274 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat' !important;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+#nav1 a{
+    text-decoration: none !important;
+
+}
+
+#nav1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    align-items: center;
+}
+
+.elements {
+    width: 500px;
+}
+
+#nav1 a {
+    color: black;
+}
+
+.elements li {
+    display: inline;
+    padding: 2%;
+    padding-bottom: 0px;
+}
+
+.hover {
+    display: inline-block;
+    position: relative;
+}
+
+.hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff0077;
+
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.mainheading {
+    font-size: 1.5rem !important;
+    line-height: 2;
+    
+}
+.logo {
+    padding-left: 120px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+#details {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#aboutEvent {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+}
+
+#aboutEvent #img {
+    margin-top: 100px;
+    background-image: url(yoga.jpg);
+    background-position: center;
+    background-size: cover;
+
+    height: 300px;
+    width: 300px;
+
+}
+
+#txt {
+    width: 50%;
+    text-align: left;
+}
+
+p {
+    margin-top: 5px;
+}
+
+li:nth-child(2) {
+    padding-left: 190px;
+}
+
+li {
+
+    margin-left: 34px;
+    text-align: left;
+    line-height: 2;
+
+}
+
+article {
+    padding: 20px;
+    margin-top: 50px;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#txt {
+    position: relative;
+}
+
+hr {
+    margin-top: 25px;
+    width: 8%;
+    position: absolute;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 4px;
+    border-color: grey;
+}
+
+article span,
+li span,
+.name {
+    color: #66BFBF;
+}
+#registration{
+    position: relative;
+}
+/* #registerHere{
+    padding: 10px 285px;
+display: flex;
+align-items: baseline;
+justify-content: space-around;   
+
+} */
+#registerHere button{
+    margin-top: 10px;
+}
+#registerHere>div a{
+    text-decoration: none;
+    color: black;
+}
+#registerHere>div a:hover{
+    color: #66BFBF;
+}
+#registerHere>div{
+   margin-top: 20px;
+   padding: 0 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* #registerHere button{
+    margin-top: 35px;
+    
+    position: absolute;
+    background-color: #66BFBF;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+button{
+    font-size: 0.8rem !important;
+}
+#previous p{
+    padding-top: 5px;
+    margin-top: 25px !important;
+
+}
+#blogHeading1>h1 {
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    padding: 10px 40px 0px 40px;
+    position: relative;
+    font-size: 3rem;
+}
+
+
+#blogHeading1>h1:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    height: 1px;
+    width: 100%;
+    content: "";
+    bottom: -30px;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgb(165, 165, 165), rgba(0, 0, 0, 0));
+}
+
+
+
+
+.s2{
+    padding-bottom: 50px;
+
+}
+
+
+@media (max-width: 600px) {
+    #txt {
+        width: 100%;
+        text-align: left;
+    }
+    #registerHere{
+        padding: 10px 0px;}
+        #registerHere>div{
+            padding: 0px;
+        }
+        #ess2{
+            margin-top: 27px;
+        }
+        
+.logo {
+    padding-left: 0;
+}
+#nav1{
+    padding: 20px 40px;
+}
+
+li:nth-child(2) {
+    padding-left: 0px;
+}
+}
+@media (min-device-width: 1024px) and (max-device-width: 1166px) {
+    .outerDiv1,.outerDiv2{
+        padding-left: 10px;
+    }
+}
+@media (max-width: 900px) and (min-width:601px) {
+    .outerDiv2{
+        margin:50px auto 50px 203px;
+    }
+    .outerDiv2:nth-child(1){
+        margin-top: 0;
+    }
+    #ess2{
+        margin-top: 0;
+    }
+}
+
+

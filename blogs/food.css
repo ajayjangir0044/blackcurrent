@@ -1,0 +1,54 @@
+.read-left{
+    background-image: url(bharati2.jpeg);
+}
+
+
+
+
+
+.foodimg1 {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    height: 300px;
+}
+.foodimg1-1 {
+    margin-top: 25px;
+    background-image: url(food1.jpg);
+    /* background-image: url(https://www.evolvedigitas.com/blog/wp-content/uploads/2020/08/ipl-is-back-dream11-Logo-for-website-thumbnail.jpg); */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    height: 400px;
+    width: 400px;
+
+}
+
+.foodimg1-2 {
+    margin-top: 50px;
+    background-image: url(food2.jpg);
+    /* background-image: url(https://www.evolvedigitas.com/blog/wp-content/uploads/2020/08/ipl-is-back-dream11-Logo-for-website-thumbnail.jpg); */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    height: 400px;
+    width: 400px;
+
+}
+
+
+@media (max-width: 600px){
+    .foodimg1-1{
+        width: 300px;
+        /* padding: 0 !important;
+        margin: 0!important; */
+    }
+    .foodimg1-2{
+        width: 300px;
+    }
+}

@@ -1,0 +1,154 @@
+body {
+    background-color: aliceblue;
+}
+
+#division {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#div1 {
+    /* background-color: gray; */
+    width: 33%;
+    height: 70vh;
+}
+
+#submission {
+    width: 100%;
+}
+#rad{margin-bottom: 15px;
+
+}
+
+#div2 {
+    padding: 20px;
+    width: 25%;
+    height: auto;
+    text-align: left;
+    box-sizing: border-box;
+    box-shadow: 0 0 45px #0007;
+    margin-bottom: 100px;
+    border-radius: 15px;
+
+}
+
+#labelFiles {
+    margin-top: 10px;
+
+}
+
+#files {
+    margin-left: -10px;
+
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+#div3 {
+
+    /* background-color: green; */
+    width: 33%;
+    height: 70vh;
+}
+
+.abc2 h1 {
+    font-size: 2rem !important;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+
+@media (max-width: 900px) {
+    #division{
+        display: block;
+   
+        padding: 20px 50px;
+    }
+    #div2{
+        margin: auto;
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    
+    #div1,
+    #div3 {
+        display: none;
+    }
+    .abc2 {
+        margin-top: 20px;
+    }
+
+    .abc2 h1 {
+        margin-bottom: 50px;
+    }
+
+}
+@media (min-device-width: 1024px) and (max-device-width: 1166px){
+    #division{
+        display: block;
+   
+        padding: 20px 50px;
+    }
+    #div2{
+        margin: auto;
+        width: 60%;
+        height:auto;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    
+    #div1,
+    #div3 {
+        display: none;
+    }
+    .abc2 {
+        margin-top: 20px;
+    }
+
+    .abc2 h1 {
+        margin-bottom: 50px;
+    }
+   
+}
+@media (max-width: 600px) {
+    #division {
+        display: block;
+        padding: 20px;
+    }
+
+    #div1,
+    #div3 {
+        display: none;
+    }
+
+    .abc2 {
+        margin-top: 20px;
+    }
+
+    .abc2 h1 {
+        margin-bottom: 50px;
+    }
+
+    label {
+        font-size: 0.9rem;
+    }
+
+    #div2 {
+        height: auto;
+        padding: 20px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}

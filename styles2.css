@@ -1,0 +1,2060 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+
+.line {
+    background-image: linear-gradient(to right, #fff0, #ffff, #fff0);
+    border: 0px !important;
+    height: 1px;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+#secondDiv,#thirdDiv{
+    margin-top: 70px;
+}
+#thirdDiv{
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+.footer-center p,.footer-links a,.footer-company-name,.footer-company-about{
+    font-family: 'Montserrat',sans-serif !important;
+
+}
+#navElement1,#navElement2,#eventLeft p{
+    font-family: Open Sans !important;
+    
+}
+#Application p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+.secondPara{
+    font-family: Open Sans !important;
+}
+.organiserRight h2,#footer2 h1,#ourTeam,.fstpara h1{
+    font-family: 'Gilroy',sans-serif !important;
+    font-weight: 400 !important;
+}
+
+#nav{
+    padding-top: 10px;
+}
+.navbar-toggler{
+float: left;
+z-index: 1;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: aliceblue;
+}
+#navElement1,#navElement2{
+    font-size: 20px !important;
+
+}
+
+
+.designerName:hover{
+    color: black !important;
+}
+.designerName{
+    color: lightseagreen !important;
+}
+
+#ourTeam {
+    margin-top: 52px;
+
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 0px;
+
+    font-family: 'Gilroy', sans-serif !important;
+}
+#footer2 h1,#ourTeam {
+    color: #000 !important;
+line-height: normal !important;
+font-family: 'Gilroy', sans-serif;
+}
+
+.teamDiv img {
+    margin-top: 60px !important;
+    padding: 80px 120px 120px 80px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+    margin-bottom: 10px !important;
+
+}
+
+.teamImg {
+    text-align: center !important;
+    margin-left: 550px;
+}
+
+
+
+
+/* FOOTER */
+
+
+
+
+.designerName {
+    color: lightseagreen;
+    font-size: 15px;
+}
+
+.hover {
+    text-decoration: none !important;
+}
+
+
+#mainFooter {
+    width: 100% !important;
+}
+
+.footer-distributed {
+    background: #666;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #222;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-company-name {
+    line-height: 2;
+    color: #000 !important;
+
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: lightseagreen;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+}
+
+#navElement1{
+    margin-left: 160px !important;
+}
+#navElement2{
+    margin-left: 50px;
+}
+.ml-auto{
+margin-left: 540px !important;
+}
+
+
+
+
+
+
+/* WEBSITE */
+
+/* footer2 */
+#footer2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* ...... */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative !important;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+.logo {
+    width: 50px;
+    margin-left: 49px;
+    margin-right: 20px;
+}
+
+a {
+    margin-left: 10px;
+    font-size: 16px;
+}
+#navElement1,#navElement2:hover{
+    color: black !important;
+    
+
+}
+
+.hover {
+    display: inline-block;
+    position: relative;
+}
+
+/* .hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+} */
+
+.hover:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+
+
+nav img {
+    margin-left: 190px;
+}
+
+#navHeading {
+    margin-left: 20px;
+}
+
+#home {
+    margin-left: 600px;
+
+}
+
+
+
+#event {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#main p,
+h1 {
+    color: #fff;
+
+    line-height: 2;
+}
+#main h1{
+    
+    font-family: 'Gilroy', sans-serif !important;
+}
+
+#main p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+#main,
+#colour {
+    width: 100%;
+    height: 100%;
+
+}
+
+#main {
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+}
+
+#event {
+
+    font-family: 'Gilroy', sans-serif !important;
+
+    padding: 200px;
+}
+
+#colour {
+    background-color: rgba(105, 105, 105, 0.712);
+}
+
+#event img {
+    width: 50%;
+    margin-left: 270px;
+
+}
+
+
+#mid {
+    background-image: url('abcd2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 63%;
+}
+
+.row {
+    position: relative;
+}
+
+#left {
+    padding-top: 4.2%;
+    position: relative;
+    text-align: left;
+    margin-left: 195px;
+}
+
+#left p {
+    line-height: 2;
+}
+
+#left h1 {
+    color: #db0000c2;
+    font-family: 'Gilroy', sans-serif;
+    line-height: 2;
+
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 41px;
+}
+
+#left p {
+    color: #03080C;
+    width: 85%;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+
+}
+
+#right {
+    height: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+
+#right img {
+    width: 60%;
+    margin-left: 270px;
+}
+
+/* Audition */
+#auditions {
+    padding: 50px 170px;
+
+}
+
+#Application h1 {
+    word-spacing: 6px;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+#Application h1,
+#awardh1 h1,
+#organiser h1 {
+    margin-top: 20px;
+    color: #03080cc5;
+    text-align: center !important;
+
+    font-family: 'Gilroy', sans-serif !important;
+    line-height: 2;
+}
+
+#awardh1 h1 {
+    padding: 20px;
+    font-size: 60px !important;
+    font-weight: 400 !important;
+}
+
+h5 {
+    font-family: 'Gilroy', sans-serif !important;
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+
+#Application p {
+    color: #6a6b7c;
+    margin-top: 10px;
+    line-height: 2;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.no1 {
+    width: 50px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    font-size: 14px;
+    background-color: aliceblue;
+
+    color: #17a2b8;
+    font-weight: 400;
+
+    border-radius: 50%;
+
+    text-align: center;
+}
+
+
+#audiContent,
+#wildcartContent,
+#regContent,
+#round1Content,
+#round2Content,
+#finalsContent {
+    padding-left: 70px;
+
+}
+
+#round1,
+#round2,
+#finals {
+    margin-top: 50px !important;
+}
+
+#audition,
+#registration,
+#wildcartEntry,
+#round1,
+#round2,
+#finals {
+    width: 30%;
+    margin: 0 40px;
+    padding: 10px;
+    padding-top: 15px;
+
+}
+
+#registration h5 {
+    color: #17a2b8;
+}
+
+#no2,
+#audition h5 {
+
+    color: rgb(105, 178, 241);
+}
+
+#no3,
+#wildcartEntry h5 {
+
+    color: #3874e4;
+}
+
+#no4,
+#round1 h5 {
+    color: #f06e18;
+}
+
+#no5,
+#round2 h5 {
+    color: #64caf3;
+}
+
+#no6,
+#finals h5 {
+    color: #ec3e3e;
+}
+
+
+#sec1,
+#sec2 {
+    display: flex;
+
+
+}
+
+.audi {
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 30px 8px rgba(42, 67, 113, 0.15);
+}
+
+#registration {
+    background-image: url('bgRegister.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 30%;
+}
+
+#round1 {
+    background-image: url("bg1.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: top right;
+}
+
+#audition {
+    background-image: url("bg2.png");
+    background-repeat: no-repeat;
+
+    background-position: bottom right;
+}
+
+#wildcartEntry {
+    background-image: url("bgRound1.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: bottom right;
+
+}
+
+#round2 {
+    background-image: url("bg11.png");
+    background-repeat: no-repeat;
+
+    background-position: top right;
+}
+
+#finals {
+    background-image: url("bgFinal2.png");
+
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: bottom right;
+}
+
+/* 
+Prizes */
+#certiImg img {
+    width: 40%;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+#bitcoinImg {
+    padding-top: 5px;
+    margin-left: 30px;
+    width: 30%;
+}
+
+#award {
+
+    padding: 50px 200px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+#certiImg {
+    margin-top: -30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#giftImg {
+    margin-top: 10px;
+
+    width: 85%;
+}
+
+#giftImg p {
+    margin-top: 34px;
+}
+
+.grid-item img {
+    margin-top: 80px;
+    width: 60%;
+    height: auto;
+}
+
+.grid-item p {
+    margin-top: 20px;
+    width: 210px;
+}
+
+.grid-item {
+    padding-right: 84px;
+}
+
+#awardh1 {
+    background-color: #37bcff;
+    padding: 0px !important;
+    width: 100%;
+
+}
+
+#awardh1 h1 {
+    padding: 20px;
+
+}
+
+
+/* JURY/GUESTS */
+.fstImgDiv {
+    text-align: center;
+}
+
+.sweta {
+    margin-left: 390px;
+}
+
+.juryHeading {
+    margin-bottom: 120px;
+}
+
+.social {
+    margin: 7px 10px 0px 10px;
+    font-size: 11px;
+    color: #6a6b7c;
+}
+
+.social:hover {
+    cursor: pointer;
+    color: #ff4c68;
+}
+
+.secondImgDiv {
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 12.5%;
+    padding-right: 11.8%;
+    margin-bottom: 20px;
+    padding-bottom: 55px;
+
+}
+
+.fstpara {
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-size: 16px;
+
+    font-weight: 700;
+    font-family: Gilroy, sans-serif;
+    color: rgba(49, 49, 49, 0.925) !important;
+
+}
+
+
+.secondPara {
+    margin-top: -5px;
+    margin-bottom: 0;
+}
+
+.secondPara {
+    font-size: 11px !important;
+    color: rgb(126, 124, 124) !important;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.images {
+    max-width: 100%;
+    width: 170px;
+    height: 170px;
+    padding: 8px;
+}
+
+.para1 {
+    color: black;
+    line-height: 1;
+    margin-top: 10px;
+    font-size: 19px;
+    margin-left: 70px;
+}
+
+.para2 {
+    margin-left: 93px;
+    line-height: 0;
+    font-size: 14px;
+}
+
+#div2 img {
+    height: auto;
+    width: auto;
+}
+
+/* Organiser */
+
+#organise {
+    padding: 100px 25vh;
+    text-align: center;
+}
+
+#organise h2 {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+
+#organise img {
+    width: 30%;
+}
+
+#organiser {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'aboutleft aboutright';
+
+    box-shadow: 0 0 45px #0007;
+}
+
+#organise article {
+    padding: 40px 30px;
+    line-height: 2;
+}
+
+#organise h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.organiserRight {
+    background-color: #37bcff;
+}
+
+.organiserRight {
+    position: relative;
+    grid-area: aboutright;
+}
+
+.organiserLeft {
+    grid-area: aboutleft;
+    background-color: white;
+}
+
+
+#factumSocial {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+#factumSocial i {
+    margin-left: 20px;
+}
+
+#factumSocial a {
+    text-decoration: none;
+    color: rgba(48, 43, 43, 0.849);
+}
+
+#factumSocial a:hover {
+    cursor: pointer;
+    color: #ff4c68;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+@media (min-device-width: 1024px) and (max-device-width: 1166px) {
+
+
+
+
+    #event {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    #main p,
+    h1 {
+        color: #fff;
+    
+        line-height: 2;
+    }
+    #main h1{
+        
+        font-family: 'Gilroy', sans-serif !important;
+    }
+    
+    #main p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    }
+    
+    #main,
+    #colour {
+        width: 100%;
+    
+    }
+    #main{
+        height: 50%;
+    }
+    
+    #main {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    }
+    
+    #event {
+    
+        font-family: 'Gilroy', sans-serif !important;
+    
+        padding: 100px;
+    }
+    
+    #colour {
+        background-color: rgba(105, 105, 105, 0.712);
+    }
+    
+    #event img {
+        width: 65%;
+        margin-left: 100px;
+    
+    }
+    
+
+
+
+
+
+
+
+    .teamDiv img {
+        padding: 45px !important;
+        padding-bottom: 80px !important;
+    }
+
+    #mainFooter {
+        height: 850px;
+    }
+
+    #ourTeam {
+        padding: 0px !important;
+        margin-top: 52px !important;
+    }
+
+
+    #mid {
+        width: 100%;
+        height: 50%;
+        background-position: bottom;
+        background-size: cover;
+        background-image: url('abcd2.jpg');
+        background-color: #F5F5F5;
+    }
+
+    #left {
+        padding-top: 4.2%;
+        position: relative;
+        text-align: left;
+        margin-left: 70px;
+    }
+
+    #left p {
+        width: 450px;
+        font-size: 18px;
+    }
+
+    #right {
+        height: 100%;
+        position: relative;
+        margin-top: 100px;
+        margin-left: 5px !important;
+    }
+
+    #right img {
+        width: 400px;
+        margin-left: 150px;
+    }
+
+    #auditions {
+        padding: 50px 70px;
+    }
+
+    #audition,
+    #registration,
+    #wildcartEntry,
+    #round1,
+    #round2,
+    #finals {
+        width: 30%;
+        margin: 0 10px;
+        padding: 10px;
+        padding-top: 15px;
+    }
+
+    #audiContent,
+    #wildcartContent,
+    #regContent,
+    #round1Content,
+    #round2Content,
+    #finalsContent p {
+        font-size: 19px;
+        line-height: normal !important;
+    }
+
+    #registration {
+        background-image: url(bgRegister.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: 50%;
+    }
+
+    #wildcartEntry {
+        background-image: url(bgRound1.png);
+        background-repeat: no-repeat;
+        background-size: 45%;
+        background-position: bottom right;
+    }
+
+    #finals {
+        background-image: url(bgfinal3.jpg);
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position: bottom right;
+    }
+
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    #award {
+        padding: 50px 0px;
+        padding-left: 150px !important;
+    }
+
+    .grid-item img {
+        margin-top: 80px;
+        width: 70%;
+        height: auto;
+    }
+
+    .grid-item p {
+        margin-top: 20px;
+        width: 310px;
+        font-size: 22px;
+
+    }
+
+    #bitcoinImg {
+        padding-top: 5px;
+        margin-left: 30px;
+        width: 42%;
+    }
+
+
+    .sweta {
+        margin-left: 250px;
+    }
+
+    .fstpara {
+        margin-bottom: 0;
+        margin-top: 15px;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Gilroy, sans-serif;
+        color: rgba(49, 49, 49, 0.925) !important;
+    }
+
+    .secondPara {
+        font-size: 17px !important;
+        color: rgb(126, 124, 124) !important;
+        margin-top: 3px;
+        margin-bottom: 0;
+    }
+
+    .social {
+        margin: 10px 7px 0px 7px;
+        font-size: 16px;
+        color: #6a6b7c;
+    }
+
+    .images {
+        max-width: 100%;
+        width: 300px;
+        height: 150px;
+        padding: 0px !important;
+    }
+
+    .image1 {
+        padding: 0px;
+    }
+
+    #organise {
+        padding: 100px 5vh;
+        text-align: center;
+    }
+
+
+    #navElement1{
+        margin-left: 55px !important;
+    }
+    .ml-auto{
+        margin-left: 220px !important;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 900px) and (min-width:601px) {
+    #event{
+        height: 100%;
+    }
+#eventLeft{
+    margin-top: -80px !important;
+}
+#eventRight img{
+    width: 20%;
+margin-top: -200px !important;
+
+}
+ #navElement1{
+     font-size: 20px !important;
+     margin-left: -137px !important;
+     padding-right: 60px !important;
+ }
+ .ml-auto{
+     margin-left: 5px !important;
+ }
+ #navElement2{
+     
+    font-size: 20px !important;
+ }
+    .navbar-dark .navbar-nav .nav-link {
+    
+        margin-left: 43px;
+    }    
+
+    #event {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    #main p,
+    h1 {
+        color: #fff;
+    
+        line-height: 2;
+    }
+    #main h1{
+        
+        font-family: 'Gilroy', sans-serif !important;
+    }
+    
+    #main p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    }
+    
+    #main {
+        width: 100%;
+        height: 85%;
+    
+    }
+    #colour{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #main {
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-image: url(https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+        background-position: center;
+    }
+    
+    #event {
+    
+        font-family: 'Gilroy', sans-serif !important;
+    
+        padding: 65px;
+    }
+    #event img {
+        margin-top: 20px;
+        width: 40%;
+        margin-left: 160px;
+        padding-top: 50px;
+    
+    }
+    
+
+#mainFooter {
+        height: 870px;
+    }
+
+    #registration {
+        background-size: 20%;
+    }
+
+    #wildcartEntry {
+        background-size: 10%;
+    }
+
+
+    /* jury */
+
+    .fstpara {
+        margin-bottom: 0;
+        margin-top: 15px;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: Gilroy, sans-serif;
+        color: rgba(49, 49, 49, 0.925) !important;
+    }
+
+    .secondPara {
+        font-size: 12px !important;
+        color: rgb(126, 124, 124) !important;
+        margin-top: 3px;
+        margin-bottom: 0;
+    }
+
+    .social {
+        margin: 10px 7px 0px 7px;
+        font-size: 12px;
+        color: #6a6b7c;
+    }
+
+    .images {
+        max-width: 100%;
+        width: 300px;
+        height: 150px;
+        padding: 8px;
+    }
+
+    /* //// */
+
+
+
+
+
+
+    #sec1,
+    #sec2 {
+        display: block;
+    }
+
+    #left {
+        margin: 0px !important;
+        margin-left: 50px !important;
+    }
+
+
+    #audition,
+    #registration,
+    #wildcartEntry,
+    #round1,
+    #round2,
+    #finals {
+        margin-left: 190px !important;
+        margin-bottom: 50px;
+        width: 50%;
+    }
+
+    #Application h1 {
+        font-size: 62px !important;
+        margin-bottom: 20px;
+        padding:30px;
+        margin-top: 0px;
+        margin-bottom: 60px;
+        background-color: #37bcff;
+    }
+    
+
+    #organise {
+        padding: 100px 5vh !important;
+    }
+
+    .organiserRight img {
+        width: 50% !important;
+
+        margin-top: 40px !important;
+    }
+
+    #factumSocial {
+        margin-left: -10px !important;
+        margin-top: 50px;
+    }
+
+
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr !important;
+        padding: 0px 120px !important;
+        row-gap: 20px;
+        column-gap: 150px;
+
+    }
+
+    .grid-item {
+        padding-right: 0;
+    }
+
+    #right img {
+        padding: 0 !important;
+        margin-top: 85px !important;
+        margin-left: 50px !important;
+    }
+
+    #award {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    #auditions {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+
+    /* footer */
+
+
+    /* organise */
+    #organise {
+        padding: 0;
+    }
+
+    #div1 {
+        margin-left: 22px !important;
+    }
+
+    #ourTeam {
+        margin-top: 45px !important;
+        padding: 0px !important;
+    }
+
+
+
+    .teamDiv img {
+        padding: 25px !important;
+
+        margin-bottom: 45px !important;
+    }
+
+    .images {
+        padding: 5px !important;
+        width: auto !important;
+        height: auto !important;
+
+    }
+
+    .images2 {
+        width: auto !important;
+        height: auto !important;
+        padding: 0px !important;
+
+    }
+
+
+
+
+    .leader {
+        margin-bottom: 0px !important;
+        padding: 45px 0px 0px 0px !important;
+    }
+
+    .sweta {
+        margin-left: 93px;
+    }
+
+    .secondImgDiv {
+        padding: 0px, 0px, 0px, 40px;
+        padding-left: 0% !important;
+        padding-right: 0% !important
+    }
+
+    .images2 {
+        padding: 12px !important;
+    }
+
+    .aboutImg {
+        height: auto !important;
+        width: auto;
+    }
+
+    #div2 {
+        margin-left: 10px;
+        padding: 20px;
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .aboutImg {
+        width: 50% !important;
+        margin-left: 180px !important;
+        position: relative;
+        top: 0px;
+
+    }
+
+    .image1 {
+        padding: 10px !important;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+    #secondDiv,#thirdDiv{
+        margin-top: 0px;
+    }
+    #thirdDiv{
+        margin-bottom: 0px;
+    } 
+#event{
+    height: 100% !important;
+}
+
+    html {
+        zoom: 0% !important;
+    }
+#navElement1{
+    margin-left: -53px !important;
+    margin-right: 5px !important;
+}
+#eventLeft p{
+    font-size: 12px;
+}
+#navElement2{
+    margin-right: 60px !important;
+}
+#navElement1,#navElement2,.navbar-nav .nav-link{
+    font-size: 12px !important;
+    
+}
+.ml-auto{
+    margin-left: 0px !important;
+}
+
+
+
+
+
+    #event {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    #main p,
+    h1 {
+        color: #fff;
+    
+        line-height: 2;
+    }
+    #main h1{
+        
+        font-family: 'Gilroy', sans-serif !important;
+    }
+    
+    #main p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    }
+    
+    #main,
+    #colour {
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    #main {
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-image: url(https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+        background-position: center;
+    }
+    
+    #event {
+    
+        font-family: 'Gilroy', sans-serif !important;
+    
+        padding: 25px;
+    }
+    
+    #colour {
+        background-color: rgba(105, 105, 105, 0.712);
+    }
+    
+#eventRight{
+    padding: 0;
+}
+#eventLeft{
+    margin-top: -100px !important;
+}
+
+    #event img {
+        width: 55%;
+        margin-left: 55px;
+        
+        padding-top: 50px;
+        margin-top: -200px !important;
+    
+    }
+    #eventLeft h1{
+        
+        font-family: 'Gilroy', sans-serif !important;
+
+    }
+    
+
+
+
+
+
+
+    .logo {
+        width: 50px;
+        margin-left: 0px;
+        margin-right: 35px;
+    }
+
+    nav img {
+        margin-left: 0px;
+    }
+
+    #navHeading {
+        margin-left: 0px;
+    }
+
+    #home {
+        margin-left: 0px;
+
+    }
+
+    #mid {
+        width: 100%;
+        height: 97%;
+        background-position: bottom;
+        background-size: cover;
+        background-image: url('abcd2.jpg');
+        background-color: #F5F5F5;
+    }
+
+    .container-fluid {
+        padding-left: 23px !important;
+        padding-right: 23px !important;
+    }
+
+    #left {
+        padding-top: 4.2%;
+        position: relative;
+        text-align: left;
+        margin-left: 0px;
+    }
+
+    #right img {
+        /* position: absolute;
+        top: 70%;
+        left: 49%;
+        transform: translate(-50%, -50%); */
+        width: 60%;
+        margin-top: 220px;
+        margin-left: 60px;
+        margin-bottom: 70px !important;
+    }
+
+    #right {
+        position: absolute;
+        top: 180px;
+    }
+
+    #left h1 {
+        color: #db0000c2;
+        font-family: 'Gilroy', sans-serif;
+        line-height: 2;
+
+        letter-spacing: 2px;
+        font-weight: 700;
+        font-size: 41px;
+    }
+
+    #left p {
+        color: #03080C;
+        width: 100%;
+        font-size: 15px;
+        line-height: 2;
+        word-spacing: 2px;
+    }
+
+    /* Application */
+
+    #auditions {
+        padding: 0px 0px;
+
+    }
+
+    #sec2 {
+        padding-top: 0px !important;
+    }
+
+    #sec1 {
+        padding-bottom: 12px !important;
+    }
+
+    #sec1,
+    #sec2 {
+        display: block;
+        padding: 40px;
+    }
+
+    #Application h1 {
+        background-color: #37bcff;
+        padding: 20px !important;
+        font-size: 55px !important;
+        
+        font-family: 'Gilroy', sans-serif !important;
+        margin-top: 0px;
+        line-height: 1.5;
+    }
+
+    #registration {
+        background-size: 21%;
+
+        margin-top: 0px !important;
+        margin-bottom: 50px !important;
+        padding-bottom: 20px;
+    }
+
+    #Application p {
+        line-height: 2;
+        font-family: 'Montserrat',sans-serif !important;
+    font-size: 13px !important;
+    }
+
+    #audition,
+    #registration,
+    #wildcartEntry,
+    #round1,
+    #round2,
+    #finals {
+        width: 100%;
+        margin: 20px 0px;
+        padding: 10px 20px;
+        padding-top: 15px;
+
+    }
+
+    #wildcartEntry {
+        margin-top: 48px;
+        background-size: 13.5%;
+    }
+
+    #round1 {
+        margin-top: 13px !important;
+    }
+
+
+
+    /* Organise */
+    #factumSocial {
+        margin-top: 25px;
+    }
+
+    .organiserRight h2 {
+
+        font-size: 40px;
+        line-height: 1.5;
+        font-weight: 500;
+
+    }
+
+    #socialLinkedin {
+        margin-left: 0px !important;
+    }
+
+    #organiseSpan {
+        font-size: 25px;
+        letter-spacing: 5px;
+        margin-bottom: 20px !important;
+    }
+
+    .organiserLeft {
+        padding-bottom: 20px !important;
+    }
+
+    article {
+        padding-top: 10px !important;
+        padding-bottom: 0px !important;
+        font-family: 'Montserrat',sans-serif !important;
+        font-size: 0.8rem;
+    }
+
+    #organise {
+
+        padding: 20px !important;
+        padding-top: 40px !important;
+        padding: 0px 0vh;
+        text-align: center;
+    }
+
+    #organiser {
+        display: grid;
+
+        grid-template-columns: 1fr;
+        grid-template-areas: 'aboutright''aboutleft';
+        box-shadow: 0 0 45px #0007;
+
+    }
+
+    #award {
+        background-color: #F5F5F5;
+        padding: 0px 0px;
+        padding-bottom: 22px;
+    }
+
+    #awardh1 h1 {
+   
+        font-family: 'Gilroy', sans-serif !important;
+        font-size: 45px !important;
+    }
+
+
+
+    #finals {
+        background-size: 47%;
+        background-position: top right;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-right: 10px;
+        padding-left: 12px;
+
+    }
+
+
+
+
+
+    /* Jury */
+
+    .secondImgDiv {
+        margin-bottom: 0px;
+    }
+
+    .fstpara {
+        font-size: 16px;
+        color: rgba(49, 49, 49, 0.925) !important;
+        font-weight: 700;
+
+        font-family: 'Gilroy', sans-serif;
+    }
+
+    .secondPara {
+        font-size: 11px;
+        color: rgb(126, 124, 124);
+        margin-top: 3px;
+        margin-bottom: 0;
+    }
+
+
+    #Jury {
+        background-color: #F5F5F5;
+    }
+
+    .juryHeading {
+        margin-bottom: 50px !important;
+    }
+
+    .aboutImg {
+        position: relative;
+        top: 0px;
+        width: 100% !important;
+        height: auto !important;
+        padding: 0px;
+        margin: 0px !important;
+    }
+
+    .images {
+        width: 186px !important;
+        height: auto;
+        padding: 0px !important;
+
+    }
+
+    .images2 {
+
+        width: auto !important;
+        height: 186px !important;
+    }
+
+    .ritik {
+        margin: 10px 0px 0px 0px !important;
+
+    }
+
+    .aman {
+        margin-top: 10px !important;
+    }
+
+    .sweta {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .dipankarImg {
+        margin-top: -20px !important;
+    }
+
+    .social {
+        margin-bottom: 50px !important;
+
+    }
+
+    .para2 {
+
+        text-align: center !important;
+        margin-left: 0;
+        font-size: 15px;
+    }
+
+    .para1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .secondImgDiv {
+        margin-top: 35px;
+        padding-bottom: 40px;
+    }
+
+
+
+    .leader {
+        margin-bottom: 40px;
+    }
+
+    .teamDiv img {
+        padding: 5px !important;
+
+    }
+
+
+    /* awards */
+
+    #awardh1 h1 {
+
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .grid-item img {
+        width: 80%;
+        height: auto;
+        margin: 30px auto 10px;
+    }
+
+    #bitcoinImg {
+        width: 40% !important;
+        text-align: center;
+        margin-left: 25px;
+        margin-top: 40px;
+
+
+    }
+
+    #certiImg img {
+        width: 45%;
+        margin-left: 30px;
+    }
+
+
+    
+
+    .grid-item p {
+        font-family: 'Montserrat',sans-serif;
+        font-size: 11px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .grid-item {
+        background-color: #F5F5F5;
+        padding: 0px;
+        row-gap: 20px;
+        padding-left: 20px;
+        column-gap: 20px;
+        width: 100%;
+    }
+
+    #giftImg {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    #giftImg img {
+        width: 60%;
+    }
+
+    #certiImg {
+        margin-top: 0px;
+    }
+
+    #footer2 {
+        margin-top: 40px;
+    }
+
+    #footer2 h1,#ourTeam {
+            color: #000 !important;
+    line-height: normal !important;
+        font-family: 'Gilroy', sans-serif;
+    }
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) 
+{
+    #event{
+        height: 100% !important;
+    }
+    #eventLeft p{
+        font-size: 11px !important;
+    }
+    html {
+        zoom: 0% !important;
+    }
+   
+
+
+#event {
+    padding-top: 0px !important;
+}
+
+#navElement1,#navElement2{
+    font-size: 12px !important;
+}
+  #navElement2{
+      margin-left: 0px !important;
+      margin-left: 25px !important;
+      margin-right: 15px !important;
+  }
+  .navbar-nav .nav-link{
+margin-left: 14px;
+font-size: 11px;
+  }
+  #navElement1{
+      margin-right: 15px;
+  }
+  .ml-auto{
+      margin-left: 0px !important;
+  }
+  #eventLeft{
+      margin-top: 25px !important;
+  }
+  #eventLeft h1{
+      font-size: 27px !important;
+  }
+  #eventimagelogo{
+      margin-top: 0px !important;
+  }
+  #event img{
+      margin-top: 0px !important;
+  }
+  #eventRight img{
+      width: 50%;
+      margin-left: 60px;
+      margin-top: 0px !important;
+      margin-bottom: 70px !important;
+      padding: 0px !important;
+  }
+
+
+}

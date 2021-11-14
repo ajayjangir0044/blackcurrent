@@ -1,0 +1,216 @@
+#events {
+  width: 100%;
+  position: relative;
+  /* background-color: #F5F5F5; */
+}
+
+#blogHeading > h1 {
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  padding: 10px 40px 0px 40px;
+  position: relative;
+  font-size: 3rem;
+  margin-top: 70px;
+}
+
+#blogHeading > h1:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  height: 1px;
+  width: 100%;
+  content: "";
+  bottom: -30px;
+  background-image: -webkit-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0),
+    rgb(165, 165, 165),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.eventsSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 120px;
+  margin-top: 150px;
+}
+
+.outerDiv1,
+.outerDiv2 {
+  width: 300px;
+  padding: 0;
+}
+
+.imageDiv1,
+.opacityDiv1 {
+  height: 275px;
+  width: 345px;
+  border-radius: 16px;
+}
+.bloggername {
+  float: right;
+  padding: 2%;
+  font-weight: 100;
+  font-family: "Gilroy", sans-serif;
+}
+
+.imageDiv1 {
+  position: relative;
+  border-radius: 16px;
+}
+
+.opac {
+  background-color: rgba(0, 0, 0, 0.705);
+}
+
+.outerDiv1:nth-child(1) > .imageDiv1 {
+  /* background-image: url(https://i2.wp.com/www.inventiva.co.in/wp-content/uploads/2020/07/IndiaCoronavirusFINAL.jpg); */
+  /* background-image: url(https://cdn.pixabay.com/photo/2020/04/14/09/22/lockdown-5041623_1280.jpg); */
+  background-image: url(https://images.pexels.com/photos/3991311/pexels-photo-3991311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.outerDiv1:nth-child(2) > .imageDiv1 {
+  /* background-image: url(https://images.unsplash.com/photo-1597983597953-31a6b9632d33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    */
+  /* background-image: url(https://images.unsplash.com/photo-1504626877899-b3670586ac9f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80); */
+  background-image: url(https://images.unsplash.com/photo-1547389498-7d32950703dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.outerDiv1:nth-child(3) > .imageDiv1 {
+  background-image: url(https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.outerDiv2:nth-child(1) > .imageDiv1 {
+  background-image: url(https://i.ytimg.com/vi/qekezUFyU4U/maxresdefault.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.outerDiv2:nth-child(2) > .imageDiv1 {
+  background-image: url(https://monomousumi.com/wp-content/uploads/148579c9569460e2cbeffd5d923a9cfa-cover-photos-friendship.jpg);
+  background-image: url(https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.outerDiv2:nth-child(3) > .imageDiv1 {
+  /* background-image: url(https://3.bp.blogspot.com/-MBtosPOhCVQ/Wmgi7e7OYNI/AAAAAAAAJe4/wQgiSF_cM14XpsU3OLwiLZFZutmznaecgCLcBGAs/s1600/work-life-balance-1.jpg); */
+  background-image: url(https://images.unsplash.com/photo-1460518451285-97b6aa326961?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blogheading {
+  font-size: 2rem !important;
+  font-weight: 100 !important;
+}
+
+.eventText {
+  color: #fff;
+  font-family: "Gilroy", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.eventText h1,
+.eventText p,
+.eventText button {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: center;
+}
+.blogbtn {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.eventText > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textHide {
+  opacity: 0;
+}
+.opacityDiv1,
+.eventText,
+.textDiv {
+  transition: all ease-in-out 0.5s;
+  transition-delay: 0.1s;
+}
+.textDiv {
+  padding-top: 10px;
+
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+.show {
+  opacity: 1;
+  height: auto;
+}
+#events > a {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 100px 0px;
+}
+
+.button1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 600px) {
+  #es2 {
+    margin-top: 40px;
+  }
+  .outerDiv:nth-child(2),
+  .outerDiv:nth-child(3) {
+    margin-top: 20px;
+  }
+  .eventsSection {
+    display: block;
+    padding: 0;
+  }
+  .outerDiv1 {
+    margin-top: 20px;
+    padding: 20px 20px 20px 15px;
+  }
+  .outerDiv2 {
+    margin-top: 20px;
+    padding: 20px 20px 20px 15px;
+  }
+  .button1 {
+    margin-top: 50px;
+
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-device-width: 360px) and (max-device-width: 361px) {
+  .imageDiv1,
+  .opacityDiv1 {
+    width: 330px;
+  }
+}
